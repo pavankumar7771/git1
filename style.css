@@ -1,0 +1,288 @@
+body,hr{
+    margin: 0%;
+   
+}
+.top,.number{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    
+    padding-left: 20px;
+    padding-right: 40px;
+    background-color: #7fffd4;
+      
+}
+.header>.home>button{
+border: none;
+outline: none;
+background-color: white;
+cursor: pointer;
+font-size: 18px;
+}
+.header,.home{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+
+    padding-left: 10px;
+    align-items: center;
+    font-size: large;
+}
+.header input{
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.search>img{
+    /* height: 20px;
+    width: 20px; */
+    margin-right: 10px;
+   
+}
+.search{
+    padding-right: 30px;
+}
+.banner{
+    padding: 40px;
+    display: flex;
+    position: relative;
+   
+   
+}
+.banner img{
+   
+    height: 350px;
+    margin-left: 200px;
+}
+.hot{
+    width:50%;
+    margin: 0%;
+    font-size: 20px;  
+}
+.hot h2{ 
+    font-size: 35px;
+}
+.hot h2 b{ 
+    color: green;
+    font-size: 50px;   
+} 
+.hot button{
+    padding: 10px;
+    background-color: green;
+    cursor: pointer;
+}
+.popular{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: x-large;
+    /* background-color: blanchedalmond; */
+}
+
+
+
+.symbol i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 7px 11px;
+    background-color: green;
+    font-size: 15px;
+}
+.popular>p>b,.price h3{
+    color: green;
+}
+.cardRow1>.card{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 170px;
+    padding: 10px;
+    background-color: yellowgreen;
+}
+.cardRow1{
+    padding-left: 40px;
+    display: flex;
+    gap: 15px;
+    padding-right: 40px;
+}
+.cardRow1 img{
+    border-radius: 10px;
+}
+.cardRow1 p{
+    padding-left: 35%;
+    font-size: large;
+}
+.btns3{
+    display: flex;
+    gap:10px;
+    margin-left: 40px;
+}
+.btns3 button{
+    padding: 10px;
+    cursor: pointer;
+}
+.btns3 #btn{
+    background-color: bisque;
+}
+.clothing,.clothing2{
+    padding-left: 40px;
+    display: flex;
+    gap: 10px;
+}
+.colourShirts{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 265px;
+    padding: 10px;
+}
+.clothing2>.colourShirts>img{
+    border-radius: 10px;
+    width: 265px;
+    
+}
+.clothing>.colourShirts>img{
+    border-radius: 10px;
+    width: 265px;
+    
+}
+
+.price{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.colourShirts p{
+    margin-bottom: 0%;
+    color: darkgrey;
+}
+.price h4{
+    color: darkgrey;
+}
+
+
+.hoo{
+    position: absolute;
+    background-color: pink;
+    border-radius: 50px;
+    padding: 3px 6px; 
+    
+    font-size: 10px;
+
+    
+}
+.deals{
+    display: flex;
+    gap: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.deals img{
+    border: 1px solid black;
+    width: 580px;
+}
+.timer{
+    display: flex;
+    gap: 20px;
+    
+    align-items: center;
+   
+   
+}
+.dealsContent>p{
+    font-size: small;
+    margin-top: 0%;
+}
+.dealsContent>p>b{
+    font-size: 20px;
+    top:10px;
+    position: relative;
+    
+}
+.timer h4{
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: green;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+}
+.timer p{
+    position: relative;
+    bottom: 17px;
+}
+.dealsContent>h4{
+    color:red;
+}
+.dealsContent>h4>s{
+    color: gray;
+}
+.dealsContent{
+    position: relative;
+    bottom: 400px;
+    left: 80px;
+}
+.dcontent{
+    display: flex;
+    gap: 330px;
+   
+   
+    
+}
+#hurry{
+    position: relative;
+    top:20px;
+}
+#dday{
+    font-size: x-large;
+    color: green;
+}
+.dealsContent button{
+    padding: 10px;
+    color: green;
+    cursor: pointer;
+    
+}
+.newsletter,.messege{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+    height:100px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.email>input,button{
+    padding: 10px;
+   
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.hotreleases{
+    display: flex;
+    gap: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.showcaseimg{
+    display: flex;
+    margin: 20px 0px;
+}
+.showcaseimg .arivals{
+    margin-left: 12px;
+}
+.arivals span{
+    color: rgb(38, 127, 100);
+}
+.arivals strike{
+    color: grey;
+    font-size: small;
+    margin-left: 5px;
+}
